@@ -1,0 +1,43 @@
+Inicio 
+   //Solicitar la cantida de barras producidas en un dia 
+   Ingresar la cantidad de barras producidas en un dia 
+
+   // Definir costos 
+   Costos_materias_prima ← 2.50
+   Costos_empaque ← 0.50
+   Costos_total_por_barra 
+   Costos_total_materia_prima +
+   Costos_empaque
+   //Calcular costo total de producion 
+   Costo_total_produccion
+   N_barras*
+   Costo_total_por_barras
+   
+   //Calcular precio de venta con 30% de ganacia
+   Precio_venta_por_barra
+   Costos_total_por_barra * 1.30
+
+   //Calcular enpaques
+   Cajas_llenas N_barras div 10
+   Barras_Sobrante
+   N_barras Mod 10
+
+   //calcular ingresos diarios 
+   Ingrso_total N_barras*
+   Precio_ventas_por_barras
+
+   //Mostra resultado 
+   Escribir" resumen de producion"
+   Escribir "totalde barras producidas:",N_barras
+   Escribir "costos total de producion:$"
+   Costos_total_producciodos
+   Escribir "precios de ventas por barras: $",Precio_venta_de_barra
+   Escribir"Ingreso total por ventas:$",Ingreso_total
+   Escribir"cajas llenas empaquetadas:",Cajas_llenas
+   Escribir"Barras sobrantes para el siguinte dia:",Barras_sobrantes
+
+   
+
+FIN
+
+

@@ -3,7 +3,8 @@ import java.util.Scanner;
 public class convertidor {
 
   
-}class Convertidor  
+  {
+    class Convertidor  
 
   public static void main(String args[]) {
     //daclaracion de las variables para el ejercicio
@@ -13,7 +14,7 @@ public class convertidor {
 
     // pedir datos por teclado
     Scanner leer = new Scanner(System.in);
-    System.out.println(x:"Digite los grasos Celcius");
+    System.out.println(x"Digite los grasos Celcius");
     C = leer. nextInt();
     System.out.println(x:"Digite los Celcius");
   
@@ -26,6 +27,10 @@ public class convertidor {
    System.out.println("°F-> °C :"+gradosCelcius);
    System.out.println("°C-> °F : "+gradosFarenheit);
    leer.close();
+   }
+   }
+   
+   
     
 
 
